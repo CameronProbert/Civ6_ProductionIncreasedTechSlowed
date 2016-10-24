@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="54a58bee-c255-45b4-ae34-5861c1154f17">
+	<Properties>
+		<Name>Production Increased Tech Slowed</Name>
+		<Stability>Beta</Stability>
+		<Teaser>Production Increased Tech Slowed</Teaser>
+		<Description>Allows for more production in game</Description>
+		<Authors>Cameron Probert</Authors>
+	</Properties>
+	<Files>
+		<File>Rules.sql</File>
+	</Files>  
+	<Settings>
+		<Custom id="ProductionIncreasedTechSlowed">
+			<Items>
+				<Component>ProductionIncreasedTechSlowedComponent</Component>
+			</Items>
+		</Custom>
+	</Settings>	
+	<Components>
+		<UpdateDatabase id="ProductionIncreasedTechSlowed">
+			<Properties>
+				<Name>Production Increased Tech Slowed</Name>
+			</Properties>
+			<Items>
+				<File>Rules.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>
