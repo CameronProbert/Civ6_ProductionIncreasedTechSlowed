@@ -8,11 +8,11 @@
 --Lowers production costs:
 
 UPDATE Buildings 
-	SET Cost = Cost*0.50;
+	SET Cost = Cost*0.65;
 UPDATE Districts 
-	SET Cost = Cost*0.50;
+	SET Cost = Cost*0.65;
 UPDATE Units 
-	SET Cost = Cost*0.50;
+	SET Cost = Cost*0.65;
 
 UPDATE Districts
 	SET CostProgressionParam1 = CostProgressionParam1/2;
@@ -20,4 +20,4 @@ UPDATE Districts
 --Increases tech costs:
 
 UPDATE Technologies 
-	SET Cost = Cost*2.0;
+	SET Cost = Cost*1.5;
